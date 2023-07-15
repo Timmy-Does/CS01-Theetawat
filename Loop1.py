@@ -1,9 +1,7 @@
-count=0
-for i in range(5):
-    count+=1
-    count+=1
-    count+=1
-    count+=1
-    count+=1
+count=1
+num=int(input("enter number"))
+for i in range(num):
+   print(count+(i+1))
 
-print(count)
+
+

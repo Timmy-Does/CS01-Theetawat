@@ -1,2 +1,3 @@
-for i in range(10):
-    print("3"*(i*3))
+num=int(input("enter number"))
+for i in range(1, 11):
+   print(num, 'x', i, '=', num*i)
