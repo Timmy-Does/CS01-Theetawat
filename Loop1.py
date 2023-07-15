@@ -1,7 +1,8 @@
-count=1
-num=int(input("enter number"))
-for i in range(num):
-   print(count+(i+1))
+sum=int(input("enter number"))
+for i in range(sum):
+    sum+=i
+print(sum)
+   
 
 
 
